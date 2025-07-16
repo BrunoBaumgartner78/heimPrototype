@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | HEIM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="kontakt.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    
+ <header>
+  <!-- Social Media -->
+  <div class="top-bar">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <!-- Search -->
+  <div class="search-bar">
+    <input type="text" placeholder="Suchen...">
+    <button>🔍</button>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">HEIM</div>
+    <ul class="nav-links" id="navLinks">
+      <li class="bg-green"><a href="/index.html">Start</a></li>
+      <li class="bg-yellow"><a href="./aboutUs.html">Über uns</a></li>
+      <li class="bg-orange"><a href="./team.html">Team</a></li>
+      <li class="bg-blue has-submenu">
+        <a href="#">Highlights ▼</a>
+        <ul class="submenu">
+          <li><a href="./highlights.html">Sucht</a></li>
+          <li><a href="/highlights.html">Psychische Erkrankungen</a></li>
+          <li><a href="/highlights.html">Alt & Krank</a></li>
+          <li><a href="/highlights.html">Arbeit</a></li>
+          <li><a href="/highlights.html">Atelier</a></li>
+          <li><a href="/highlights.html">Freizeit</a></li>
+        </ul>
+      </li>
+      <li class="bg-purple has-submenu">
+        <a href="#">Organisation ▼</a>
+        <ul class="submenu">
+          <li><a href="./organisation.html">Über Organisation</a></li>
+          <li><a href="./finances.html">Finanzierung</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+        </ul>
+      </li>
+       <li class="bg-teal has-submenu">
+        <a href="#">Services ▼</a>
+        <ul class="submenu">
+          <li><a href="./wohnen.html">Wohnen</a></li>
+          <li><a href="./beschäftigung.html">Beschäftigung</a></li>
+          <li><a href="./alkohol.html">Kontrollierte Alkoholabgabe</a></li>
+        </ul>
+      <li class="bg-red"><a href="./carrier.html">Karriere</a></li>
+      <li class="bg-gray"><a href="./bewohner.html">Bewohner</a></li>
+      <li class="bg-dark"><a href="./kontakt.html">Kontakt</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+</header>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/41791234567" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Hero -->
+<section class="hero-small">
+  <div class="hero-overlay">
+    <h1>Kontakt</h1>
+    <p>Wir sind für Sie da – jederzeit erreichbar</p>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="intro-section">
+  <h2>So erreichen Sie uns</h2>
+  <p>Haben Sie Fragen zu unseren Angeboten oder möchten Sie einen Termin vereinbaren? Kontaktieren Sie uns über das Formular oder besuchen Sie uns vor Ort.</p>
+</section>
+
+<!-- Kontaktbereich -->
+<section class="contact-section">
+  <div class="contact-container">
+    <!-- Kontaktformular -->
+    <div class="contact-form">
+      <h3>Kontaktformular</h3>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Nachricht</label>
+          <textarea id="message" name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+        </div>
+        <button type="submit" class="btn">Absenden</button>
+      </form>
+    </div>
+
+    <!-- Kontaktinfos -->
+    <div class="contact-info">
+      <h3>Unsere Adresse</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Musterstraße 123, 8000 Zürich</p>
+      <p><i class="fas fa-phone"></i> +41 44 123 45 67</p>
+      <p><i class="fas fa-envelope"></i> info@heim.ch</p>
+      <h3>Öffnungszeiten</h3>
+      <p>Mo–Fr: 08:00 – 18:00 Uhr</p>
+      <p>Sa–So: nach Vereinbarung</p>
+    </div>
+  </div>
+</section>
+
+<!-- Google Maps -->
+<section class="map-section">
+  <h2>Hier finden Sie uns</h2>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2763.739554739785!2d8.541694715551048!3d47.37688677916826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a053ba64f2d%3A0x4217b6c5083f6c0!2sZ%C3%BCrich!5e0!3m2!1sde!2sch!4v1700000000000" 
+    width="100%" 
+    height="400" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</section>
+
+<!-- Call to Action -->
+<section class="cta-section">
+  <h2>Möchten Sie uns persönlich kennenlernen?</h2>
+  <a href="termin.html" class="btn">Termin vereinbaren</a>
+</section>
+
+ <header>
+  <!-- Social Media -->
+  <div class="top-bar">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <!-- Search -->
+  <div class="search-bar">
+    <input type="text" placeholder="Suchen...">
+    <button>🔍</button>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">HEIM</div>
+    <ul class="nav-links" id="navLinks">
+      <li class="bg-green"><a href="/index.html">Start</a></li>
+      <li class="bg-yellow"><a href="./aboutUs.html">Über uns</a></li>
+      <li class="bg-orange"><a href="./team.html">Team</a></li>
+      <li class="bg-blue has-submenu">
+        <a href="#">Highlights ▼</a>
+        <ul class="submenu">
+          <li><a href="./highlights.html">Sucht</a></li>
+          <li><a href="/highlights.html">Psychische Erkrankungen</a></li>
+          <li><a href="/highlights.html">Alt & Krank</a></li>
+          <li><a href="/highlights.html">Arbeit</a></li>
+          <li><a href="/highlights.html">Atelier</a></li>
+          <li><a href="/highlights.html">Freizeit</a></li>
+        </ul>
+      </li>
+      <li class="bg-purple has-submenu">
+        <a href="#">Organisation ▼</a>
+        <ul class="submenu">
+          <li><a href="./organisation.html">Über Organisation</a></li>
+          <li><a href="./finances.html">Finanzierung</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+        </ul>
+      </li>
+       <li class="bg-teal has-submenu">
+        <a href="#">Services ▼</a>
+        <ul class="submenu">
+          <li><a href="./wohnen.html">Wohnen</a></li>
+          <li><a href="./beschäftigung.html">Beschäftigung</a></li>
+          <li><a href="./alkohol.html">Kontrollierte Alkoholabgabe</a></li>
+        </ul>
+      <li class="bg-red"><a href="./carrier.html">Karriere</a></li>
+      <li class="bg-gray"><a href="./bewohner.html">Bewohner</a></li>
+      <li class="bg-dark"><a href="./kontakt.html">Kontakt</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+</header>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/41791234567" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Footer -->
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+  <!-- Social Media Icons -->
+  <div class="footer-social" style="text-align:center; padding: 20px 0;">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+  <!-- Footer Navigation -->
+  <div class="footer-menu" style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding: 20px;">
+    
+    <div>
+      <h4>Startseite</h4>
+      <a href="/index.html">Start</a>
+    </div>
+
+    <div>
+      <h4>Über uns</h4>
+      <a href="./aboutUs.html">Über uns</a>
+      <a href="./team.html">Team</a>
+    </div>
+
+    <div>
+      <h4>Highlights</h4>
+      <a href="./highlights.html">Sucht</a>
+      <a href="./highlights.html">Psychische Erkrankungen</a>
+      <a href="./highlights.html">Alt & Krank</a>
+      <a href="./highlights.html">Arbeit</a>
+      <a href="./highlights.html">Atelier</a>
+      <a href="./highlights.html">Freizeit</a>
+    </div>
+
+    <div>
+      <h4>Organisation</h4>
+      <a href="./organisation.html">Über Organisation</a>
+      <a href="./finances.html">Finanzierung</a>
+      <a href="./shop.html">Shop</a>
+    </div>
+
+    <div>
+      <h4>Services</h4>
+      <a href="./wohnen.html">Wohnen</a>
+      <a href="./beschäftigung.html">Beschäftigung</a>
+      <a href="./alkohol.html">Kontrollierte Alkoholabgabe</a>
+    </div>
+
+    <div>
+      <h4>Karriere</h4>
+      <a href="./carrier.html">Karriere</a>
+    </div>
+
+    <div>
+      <h4>Bewohner</h4>
+      <a href="./bewohner.html">Bewohner</a>
+    </div>
+
+    <div>
+      <h4>Kontakt</h4>
+      <a href="./kontakt.html">Kontakt</a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-copy" style="text-align:center; padding: 15px 0; font-size: 0.9rem; color: #555;">
+    © 2025 HEIM – Alle Rechte vorbehalten.
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

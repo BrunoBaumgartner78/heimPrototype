@@ -1,0 +1,154 @@
+/* Hero Small */
+.hero-small {
+  position: relative;
+  background: #333 center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-small::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-small h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-small p {
+  font-size: 1.2rem;
+}
+/* Top-Bar Social */
+.top-bar {
+  background: var(--teal);
+  color: white;
+  text-align: right;
+  padding: 5px 15px;
+}
+/* Intro */
+.intro-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.intro-section h2 {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.intro-section p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Beschäftigung Karten */
+.beschaeftigung-section {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.beschaeftigung-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.beschaeftigung-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.beschaeftigung-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.beschaeftigung-card i {
+  font-size: 3rem;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.beschaeftigung-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.beschaeftigung-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Vorteile */
+.benefits-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.benefits-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.benefit {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.benefit i {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.benefit h4 {
+  font-size: 1.2rem;
+}
+
+/* CTA */
+.cta-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #2e7d32;
+  color: #fff;
+}
+
+.cta-section .btn {
+  display: inline-block;
+  background: #fff;
+  color: #2e7d32;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-section .btn:hover {
+  background: #f1f1f1;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beschäftigung | HEIM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="beschäftigung.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+ 
+ <header>
+  <!-- Social Media -->
+  <div class="top-bar">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <!-- Search -->
+  <div class="search-bar">
+    <input type="text" placeholder="Suchen...">
+    <button>🔍</button>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">HEIM</div>
+    <ul class="nav-links" id="navLinks">
+      <li class="bg-green"><a href="/index.html">Start</a></li>
+      <li class="bg-yellow"><a href="./aboutUs.html">Über uns</a></li>
+      <li class="bg-orange"><a href="./team.html">Team</a></li>
+      <li class="bg-blue has-submenu">
+        <a href="#">Highlights ▼</a>
+        <ul class="submenu">
+          <li><a href="./highlights.html">Sucht</a></li>
+          <li><a href="/highlights.html">Psychische Erkrankungen</a></li>
+          <li><a href="/highlights.html">Alt & Krank</a></li>
+          <li><a href="/highlights.html">Arbeit</a></li>
+          <li><a href="/highlights.html">Atelier</a></li>
+          <li><a href="/highlights.html">Freizeit</a></li>
+        </ul>
+      </li>
+      <li class="bg-purple has-submenu">
+        <a href="#">Organisation ▼</a>
+        <ul class="submenu">
+          <li><a href="./organisation.html">Über Organisation</a></li>
+          <li><a href="./finances.html">Finanzierung</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+        </ul>
+      </li>
+       <li class="bg-teal has-submenu">
+        <a href="#">Services ▼</a>
+        <ul class="submenu">
+          <li><a href="./wohnen.html">Wohnen</a></li>
+          <li><a href="./beschäftigung.html">Beschäftigung</a></li>
+          <li><a href="./alkohol.html">Kontrollierte Alkoholabgabe</a></li>
+        </ul>
+      <li class="bg-red"><a href="./carrier.html">Karriere</a></li>
+      <li class="bg-gray"><a href="./bewohner.html">Bewohner</a></li>
+      <li class="bg-dark"><a href="./kontakt.html">Kontakt</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+</header>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/41791234567" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+<!-- Hero Section -->
+<section class="hero-small" style="background-image: url('hero.jpg');">
+  <div class="hero-overlay">
+    <h1>Beschäftigung & Tagesstruktur</h1>
+    <p>Sinnvolle Aufgaben für ein erfülltes Leben.</p>
+  </div>
+</section>
+
+<!-- Intro Section -->
+<section class="intro-section">
+  <div class="intro-container">
+    <h2>Unsere Beschäftigungsangebote</h2>
+    <p>
+      Beschäftigung bedeutet mehr als nur Zeitvertreib: Sie fördert soziale Kontakte,
+      stärkt das Selbstwertgefühl und vermittelt ein Gefühl der Zugehörigkeit.
+    </p>
+  </div>
+</section>
+
+<!-- Beschäftigungsarten -->
+<section class="beschaeftigung-section">
+  <div class="beschaeftigung-grid">
+    <div class="beschaeftigung-card">
+      <i class="fas fa-paint-brush"></i>
+      <h3>Kreatives Atelier</h3>
+      <p>Malerei, Keramik und Bastelprojekte für kreative Köpfe.</p>
+    </div>
+    <div class="beschaeftigung-card">
+      <i class="fas fa-seedling"></i>
+      <h3>Gartenarbeit</h3>
+      <p>Arbeiten in der Natur, Pflanzenpflege und Gemüseanbau.</p>
+    </div>
+    <div class="beschaeftigung-card">
+      <i class="fas fa-hammer"></i>
+      <h3>Werkstatt</h3>
+      <p>Handwerkliche Tätigkeiten wie Holz- und Metallbearbeitung.</p>
+    </div>
+    <div class="beschaeftigung-card">
+      <i class="fas fa-book"></i>
+      <h3>Lernangebote</h3>
+      <p>Fortbildungen, Lesen, Schreiben und digitale Kompetenzen.</p>
+    </div>
+    <div class="beschaeftigung-card">
+      <i class="fas fa-utensils"></i>
+      <h3>Küche & Kochen</h3>
+      <p>Gemeinsames Kochen und Backen für den Alltag.</p>
+    </div>
+    <div class="beschaeftigung-card">
+      <i class="fas fa-music"></i>
+      <h3>Musik & Bewegung</h3>
+      <p>Musizieren, Singen und Bewegungsgruppen für alle.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Vorteile -->
+<section class="benefits-section">
+  <h2>Warum Beschäftigung wichtig ist</h2>
+  <div class="benefits-grid">
+    <div class="benefit">
+      <i class="fas fa-smile"></i>
+      <h4>Mehr Lebensfreude</h4>
+    </div>
+    <div class="benefit">
+      <i class="fas fa-users"></i>
+      <h4>Soziale Kontakte</h4>
+    </div>
+    <div class="benefit">
+      <i class="fas fa-brain"></i>
+      <h4>Mentale Aktivität</h4>
+    </div>
+    <div class="benefit">
+      <i class="fas fa-hands-helping"></i>
+      <h4>Gemeinschaftsgefühl</h4>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Interessiert an unseren Beschäftigungsprogrammen?</h2>
+  <a href="kontakt.html" class="btn">Jetzt Kontakt aufnehmen</a>
+</section>
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+  <!-- Social Media Icons -->
+  <div class="footer-social" style="text-align:center; padding: 20px 0;">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+  <!-- Footer Navigation -->
+  <div class="footer-menu" style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; padding: 20px;">
+    
+    <div>
+      <h4>Startseite</h4>
+      <a href="/index.html">Start</a>
+    </div>
+
+    <div>
+      <h4>Über uns</h4>
+      <a href="./aboutUs.html">Über uns</a>
+      <a href="./team.html">Team</a>
+    </div>
+
+    <div>
+      <h4>Highlights</h4>
+      <a href="./highlights.html">Sucht</a>
+      <a href="./highlights.html">Psychische Erkrankungen</a>
+      <a href="./highlights.html">Alt & Krank</a>
+      <a href="./highlights.html">Arbeit</a>
+      <a href="./highlights.html">Atelier</a>
+      <a href="./highlights.html">Freizeit</a>
+    </div>
+
+    <div>
+      <h4>Organisation</h4>
+      <a href="./organisation.html">Über Organisation</a>
+      <a href="./finances.html">Finanzierung</a>
+      <a href="./shop.html">Shop</a>
+    </div>
+
+    <div>
+      <h4>Services</h4>
+      <a href="./wohnen.html">Wohnen</a>
+      <a href="./beschäftigung.html">Beschäftigung</a>
+      <a href="./alkohol.html">Kontrollierte Alkoholabgabe</a>
+    </div>
+
+    <div>
+      <h4>Karriere</h4>
+      <a href="./carrier.html">Karriere</a>
+    </div>
+
+    <div>
+      <h4>Bewohner</h4>
+      <a href="./bewohner.html">Bewohner</a>
+    </div>
+
+    <div>
+      <h4>Kontakt</h4>
+      <a href="./kontakt.html">Kontakt</a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-copy" style="text-align:center; padding: 15px 0; font-size: 0.9rem; color: #555;">
+    © 2025 HEIM – Alle Rechte vorbehalten.
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+

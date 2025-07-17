@@ -1,24 +1,24 @@
-/* Hero Small */
+
+/* ---------- Hero Section ---------- */
 .hero-small {
   position: relative;
   background: #333 center/cover no-repeat;
-  color: #fff;
+  color: var(--light-text);
   text-align: center;
   padding: 100px 20px;
-  
 }
 
 .hero-small::after {
   content: "";
   position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
   background: rgba(0,0,0,0.4);
 }
 
 .hero-overlay {
   position: relative;
   z-index: 2;
-  
 }
 
 .hero-small h1 {
@@ -30,15 +30,7 @@
   font-size: 1.2rem;
 }
 
-/* Top-Bar Social */
-.top-bar {
-  background: var(--teal);
-  color: white;
-  text-align: right;
-  padding: 5px 15px;
-}
-
-/* Intro */
+/* ---------- Intro Section ---------- */
 .intro-section {
   text-align: center;
   padding: 50px 20px;
@@ -46,21 +38,21 @@
 
 .intro-section h2 {
   font-size: 2rem;
-  color: #2e7d32;
+  color: var(--primary-color);
   margin-bottom: 15px;
 }
 
 .intro-section p {
   font-size: 1.1rem;
-  color: #555;
   max-width: 800px;
   margin: 0 auto;
+  color: #666;
 }
 
-/* Wohnen Karten */
+/* ---------- Wohnen Cards ---------- */
 .wohnen-section {
   padding: 50px 20px;
-  background: #f9f9f9;
+  background: var(--secondary-color);
 }
 
 .wohnen-grid {
@@ -80,6 +72,10 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
+body.dark-mode .wohnen-card {
+  background: #222;
+}
+
 .wohnen-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.15);
@@ -87,14 +83,13 @@
 
 .wohnen-card i {
   font-size: 3rem;
-  color: #2e7d32;
+  color: var(--primary-color);
   margin-bottom: 15px;
 }
 
 .wohnen-card h3 {
   font-size: 1.4rem;
   margin-bottom: 10px;
-  color: #333;
 }
 
 .wohnen-card p {
@@ -102,18 +97,22 @@
   color: #666;
 }
 
-/* CTA */
+body.dark-mode .wohnen-card p {
+  color: #ccc;
+}
+
+/* ---------- CTA ---------- */
 .cta-section {
   text-align: center;
   padding: 60px 20px;
-  background: #2e7d32;
+  background: var(--primary-color);
   color: #fff;
 }
 
 .cta-section .btn {
   display: inline-block;
   background: #fff;
-  color: #2e7d32;
+  color: var(--primary-color);
   padding: 12px 25px;
   font-size: 1rem;
   border-radius: 8px;
@@ -123,4 +122,39 @@
 
 .cta-section .btn:hover {
   background: #f1f1f1;
+}
+
+/* ---------- Dark Mode Button ---------- */
+.dark-mode-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* ---------- Responsive Anpassungen ---------- */
+@media (max-width: 768px) {
+  .hero-small h1 {
+    font-size: 2rem;
+  }
+
+  .hero-small p {
+    font-size: 1rem;
+  }
+
+  .intro-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .wohnen-card i {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
 }

@@ -180,6 +180,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+
 }
 
 .cta-buttons .btn {
@@ -194,6 +195,7 @@
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s, transform 0.3s;
+  width: 200px;
 }
 
 .cta-buttons .btn i {
@@ -208,3 +210,7 @@
 .fb-btn { color: #1877f2; }
 .ig-btn { color: #c32aa3; }
 .wa-btn { color: #25d366; }
+
+@media screen and (max-width:768px) {
+  
+}

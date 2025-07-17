@@ -155,3 +155,56 @@
 .btn-secondary:hover {
   background: #111;
 }
+
+.cta-social {
+  background: #2e7d32; /* Grün für Vertrauen und Community */
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-social h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta-social p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cta-buttons .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: #2e7d32;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.cta-buttons .btn i {
+  font-size: 1.2rem;
+}
+
+.cta-buttons .btn:hover {
+  background: #f1f1f1;
+  transform: translateY(-3px);
+}
+
+.fb-btn { color: #1877f2; }
+.ig-btn { color: #c32aa3; }
+.wa-btn { color: #25d366; }

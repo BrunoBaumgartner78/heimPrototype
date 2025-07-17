@@ -14,7 +14,7 @@ html, body {
 
 .hero-small {
   position: relative;
-  background: url('hero.jpg') center/cover no-repeat;
+  background: url('team.css') center/cover no-repeat;
   color: #fff;
   text-align: center;
   padding: 100px 20px;

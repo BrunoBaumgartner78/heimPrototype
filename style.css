@@ -413,12 +413,17 @@ h2 {
 /* Responsive Design */
 @media(max-width: 900px) {
   .hero-container {
-    flex-direction: column;
+    display: block;
     text-align: center;
     margin-top: 60px;
   }
   .hero-image img {
     max-width: 80%;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: row;
   }
 }
 
